@@ -2,8 +2,8 @@
 const Transformer = require('./Transformer');
 
 /**
- * The guild transformer, allows for an easier way
- * to interact with guild database records.
+ * The feedback transformer, allows for an easier way
+ * to interact with feedback database records.
  *
  * @extends {Transformer}
  */
