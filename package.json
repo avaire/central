@@ -1,6 +1,6 @@
 {
     "name": "Ava-Central",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "A Discord Bot made to help support a Discord Bot",
     "main": "start.js",
     "maintainers": [
