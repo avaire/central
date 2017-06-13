@@ -1,0 +1,13 @@
+{
+    "token": "",
+    "database": {
+        "type": "mysql",
+        "database": "avaire",
+        "host": "localhost",
+        "user": "username",
+        "password": "password"
+    },
+    "botAccess": [
+        "88739639380172800"
+    ]
+}
