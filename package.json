@@ -1,0 +1,64 @@
+{
+    "name": "Ava-Central",
+    "version": "0.1.0",
+    "description": "A Discord Bot made to help support a Discord Bot",
+    "main": "start.js",
+    "maintainers": [
+        {
+            "name": "Alexis Tan",
+            "email": "alexis@sen-dev.com"
+        }
+    ],
+    "author": {
+        "name": "Alexis Tan",
+        "email": "alexis@sen-dev.com",
+        "url": "https://senither.com"
+    },
+    "scripts": {
+        "start": "node start.js"
+    },
+    "engines": {
+        "node": "4.x.x - 6.x.x",
+        "npm": ">=3.x.x"
+    },
+    "xo": {
+        "space": 4,
+        "semicolon": true,
+        "globals": [
+            "app",
+            "bot",
+            "getEnvironment",
+            "isEnvironmentInTesting",
+            "isEnvironmentInProduction",
+            "isEnvironmentInDevelopment"
+        ],
+        "rules": {
+            "camelcase": 0,
+            "new-parens": 0,
+            "guard-for-in": 0,
+            "prefer-const": 0,
+            "no-eval": 0,
+            "no-unused-vars": 0,
+            "no-prototype-builtins": 0,
+            "unicorn/filename-case": 0,
+            "import/no-dynamic-require": 0
+        }
+    },
+    "license": "MIT",
+    "dependencies": {
+        "discordie": "^0.11.0",
+        "fs-extra": "^2.0.0",
+        "knex": "^0.12.7",
+        "lodash": "^4.17.4",
+        "mysql": "^2.13.0",
+        "node-schedule": "^1.2.0",
+        "request": "^2.81.0",
+        "sqlite3": "^3.1.8",
+        "winston": "^2.3.1",
+        "winston-daily-rotate-file": "^1.4.6"
+    },
+    "devDependencies": {
+        "xo": "^0.18.0"
+    },
+    "snyk": true
+}
