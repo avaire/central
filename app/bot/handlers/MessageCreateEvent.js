@@ -26,6 +26,10 @@ class MessageCreateEvent extends EventHandler {
             return;
         }
 
+        if (app.bot.features.spam.isSpam(socket)) {
+            return app.bot.features.spam.handle(socket);
+        }
+
         let message = socket.message.content;
         let command = CommandHandler.getCommand(message);
 
