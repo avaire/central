@@ -86,7 +86,7 @@ class StaffCommand extends Command {
     getStatus(status) {
         switch (status) {
             case 'idle':
-                return '<:idle:316856575098880002>';
+                return '<:away:324986135346675712>';
             case 'dnd':
                 return '<:dnd:324986174806425610>';
             case 'offline':
