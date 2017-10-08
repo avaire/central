@@ -38,7 +38,7 @@ class Spam {
 
         let roles = socket.message.member.roles;
         for (let i = 0; i < roles.length; i++) {
-            if (roles[i].color !== 0) {
+            if (roles[i].name.toLowerCase() === 'staff') {
                 return true;
             }
         }
